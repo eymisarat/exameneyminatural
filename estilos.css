@@ -1,0 +1,198 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: 
+      radial-gradient(black 3px, transparent 4px),
+      radial-gradient(black 3px, transparent 4px),
+      linear-gradient(#fff 4px, transparent 0),
+      linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+      linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  }
+
+
+
+  header{
+       border: solid 1px;
+       display: flex;
+       justify-content: space-between;/* los separa */
+   background: pink ;
+   align-items: center;
+   padding: 2px;
+   border-radius: 80px;
+   }
+
+
+   #contenedor{
+    margin-top:150px;
+   }
+
+   #seccion-artuculos{
+    width: 80%;
+
+    margin: 20px auto;
+   }
+   
+   #titulo{
+    text-align:center;
+    font-size: 100px;
+   }
+   
+nav .link-nav{
+    padding:20px;
+    font-size: none;
+
+
+font-weight: bold;
+
+}
+
+   nav .link-nav:hover{
+    color:palevioletred;
+    background-color:palevioletred;
+    border-radius:5px ;
+
+}
+   #logo-empresa{
+       /*border:solid 1px;*/
+       height: 120px;
+   
+       display:flex;
+     align-items: center;
+   
+       text-decoration:none;
+       color: black;
+       font-size: 30px;
+   }
+   
+   #logo{
+       height: 100px;
+       width: 100px;
+       margin-right: 20px;
+   }
+   
+   
+   
+   /*Aplicamos estilos a la barra de navegacion */
+   nav .link-nav {
+       padding-right: 15px;
+       font-size: 30px;
+       text-decoration:none;
+       color: black;
+       font-weight:bold;/*aplicar negrita*/
+   }
+   
+   nav .link-nav:hover{
+       color:rgb(12, 12, 12);
+       
+   }
+
+  
+  
+
+
+
+  /* inicio con los estilos del contendor*/
+
+  #contenedor{
+    width: 80%;
+    background-color:pink;
+    margin: 20px auto;
+    padding: 60px;
+  }
+
+  #titulo{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+  }
+
+  .imgsec1{
+    width:50px;
+  }
+
+  #primerseccion{
+  
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px ;
+  }
+
+  .artiseccion1{
+    text-align:center;
+  }
+
+.artiseccion1 p {
+text-align: justify;
+
+}
+
+
+
+
+#segundaseccion{
+border: solid 1px;
+ margin-top: 50px;
+ padding: 30px;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+#video{
+width: 500px;
+height: 300px;
+padding:20px
+}
+
+
+#artiseccion2{
+text-align: center;
+
+}
+
+#artiseccion2 p {
+text-align: justify;
+margin-top: 20px;
+}
+
+#terceraseccion{
+  
+margin-top: 50px;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 30px ;
+}
+
+.artiseccion3{
+text-align:center;
+}
+
+.artiseccion3 p {
+text-align: justify;
+ }
+
+
+.imgfooter{
+width: 50px;
+margin-top: 10px;
+
+}
+footer{
+  height: 100px;
+  background-color:palevioletred;
+  margin-top: 100px;
+  text-align: center;
+  padding-top: 20px;
+
+
+}  
+  
+
+  
